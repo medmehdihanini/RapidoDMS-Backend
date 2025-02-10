@@ -22,6 +22,7 @@ class User extends Model
         'created_at',
         'google_id',
     ];
+    // tessts
 
     protected $hidden = [
         'password',
