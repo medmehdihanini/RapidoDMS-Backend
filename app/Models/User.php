@@ -20,6 +20,7 @@ class User extends Model
         'password',
         'name',
         'created_at',
+        'google_id',
     ];
 
     protected $hidden = [
