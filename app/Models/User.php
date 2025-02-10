@@ -21,6 +21,7 @@ class User extends Model
         'name',
         'created_at',
     ];
+    // tessts
 
     protected $hidden = [
         'password',
