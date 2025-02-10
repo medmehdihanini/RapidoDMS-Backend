@@ -22,12 +22,12 @@ class User extends Model
         'created_at',
         'google_id',
     ];
-    // tessts
 
     protected $hidden = [
         'password',
        'remember_token'
     ];
+
 
     public static function boot()
     {

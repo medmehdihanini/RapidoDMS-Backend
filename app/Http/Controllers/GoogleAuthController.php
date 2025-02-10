@@ -27,7 +27,7 @@ class GoogleAuthController extends Controller
             ], [
                 'name' => $googleUser->getName(),
                 'google_id' => $googleUser->getId(),
-                'password' => bcrypt(str()->random(16)), // Génère un mot de passe aléatoire
+                'password' => bcrypt(str()->random(16)),
                 'role' => "user",
                 'status' => "active",
             ]);
